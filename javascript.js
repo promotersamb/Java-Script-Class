@@ -25,12 +25,25 @@
 //     }
 // }
 
-var array = [10,20,30,40,50]
-var sammy = array.length
-var sum =0;
-for(var i = 0; i < sammy; i++){
-    sum +=array[i]
-    //  sum = sum + array[i]
+// function addition(){
+//     var a = 10;
+//     var b = 20;
+//     var c = a+b
+//     console.log("The Value of c is " +30)
+// }
+// addition()
+
+function pressed(){
+    var text = document.getElementById("name").value
+    if (text === "red"){
+         document.getElementById("header").style.color = "red"
+    }
+    
+    else if (text === "green"){
+        document.getElementById("header").style.color = "green"
+    }
+    else{
+        
+    }
 }
-var average = sum / sammy
-console.log("The average is:" +average)
+
